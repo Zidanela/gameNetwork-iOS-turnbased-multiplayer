@@ -4,19 +4,6 @@ settings =
 	{
 		default = "portrait",					
 	},
-	android =
-	{
-		googlePlayGamesAppId = "989030404439", -- Your Google Play Games App Id
-	},
-	plugins =
-	{
-		-- key is the name passed to Lua's 'require()'
-		["CoronaProvider.gameNetwork.google"] =
-		{
-			-- required
-			publisherId = "com.coronalabs",
-		},
-	},
 	iphone =
 	{
 		plist=
